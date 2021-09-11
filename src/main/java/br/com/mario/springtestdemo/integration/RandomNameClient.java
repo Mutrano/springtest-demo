@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 public interface RandomNameClient {
 
     @GetMapping("/nome")
-    public String buscaNome();
+    String buscaNome();
 }
